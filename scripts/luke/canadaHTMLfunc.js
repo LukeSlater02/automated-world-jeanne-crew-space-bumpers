@@ -28,24 +28,3 @@ export const generateCitizenHTML = (obj) => {
     <a href="${obj.link}" target="_blank">Learn More</a>
     `
 }
-
-// You'll need to change the import directories to your own personal file names.
-import {cityObj} from "./canadaData.js"
-import {landmarkObj} from "./canadaData.js"
-import {citizenObj} from "./canadaData.js"
-import { generateLandmarkHTML } from "./canadaHTMLfunc.js"
-import {generateCityHTML} from "./canadaHTMLfunc.js"
-import { generateCitizenHTML } from "./canadaHTMLfunc.js"
-
-// if the name of your arrays are different than 'landmarkObj', etc, youll have to change that
-for (const landmark of landmarkObj){
-    generateLandmarkHTML(landmark)
-}
-
-for (const city of cityObj){
-    generateCityHTML(city)
-}
-
-for (const citizen of citizenObj){
-    generateCitizenHTML(citizen)
-}
