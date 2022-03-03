@@ -30,18 +30,21 @@ const japanLandmarks = [
     name: "Tokyo Tower ",
     image: "",
     yearCreated: "1958",
+    description:"PLease edit",
     link: "https://en.wikipedia.org/wiki/Tokyo_Tower",
   },
   {
     name: "Hiroshima Peace Memorial Park",
     image: "",
     yearCreated: "1954",
+    description: "please edit",
     link: "https://en.wikipedia.org/wiki/Hiroshima_Peace_Memorial_Park",
   },
   {
     name: "National Museum of Nature and Science",
     image: "",
     yearCreated: "1871",
+    description: "please edit",
     link: "https://en.wikipedia.org/wiki/National_Museum_of_Nature_and_Science",
   },
 ];
