@@ -15,10 +15,14 @@ document.querySelector('header').innerHTML = header.Header({
 for (let i of englandData.getCities()){
     mainFunctions.generateCityHTML(i);
 }
-
 // Landmarks Loop
-
+for (let i of englandData.getLandmarks()){
+    mainFunctions.generateLandmarkHTML(i);
+}
 // Citizens Loop
+for (let i of englandData.getFamousCitizens()){
+    mainFunctions.generateCitizenHTML(i);
+}
 
 
 // Generate Footer
