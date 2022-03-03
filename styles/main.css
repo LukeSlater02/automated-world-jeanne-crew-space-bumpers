@@ -13,3 +13,10 @@
 .content__column__images {
 
 }
+
+h1 {
+    font-size: 60pt;
+    font-weight:bolder;
+    letter-spacing: .3em;
+    color: black;
+  }
