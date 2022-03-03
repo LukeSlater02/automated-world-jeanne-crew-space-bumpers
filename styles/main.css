@@ -1,22 +1,28 @@
-.title__section {
+/* .title__section {
 
-}
+} */
 
 .content__section {
-
+    display:flex;
+    justify-content: space-between;     
 }
 
 .content__column {
-
+    display:flex;
+    flex-direction: column;
+    border: 5px black solid;
+    margin: 0 .5em;
+    padding: .5em;
+  
 }
 
+.content__column h2 {
+    text-align: center;
+}
+
+/* 
 .content__column__images {
 
-}
 
-h1 {
-    font-size: 60pt;
-    font-weight:bolder;
-    letter-spacing: .3em;
-    color: black;
-  }
+} */
+
