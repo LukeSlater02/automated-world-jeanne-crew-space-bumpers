@@ -1,4 +1,14 @@
 @import 'main.css';
 @import 'header.css';
 @import 'footer.css';
+<<<<<<< HEAD
 @import 'main.css';
+=======
+
+h1 {
+    font-size: 60pt;
+    font-weight:bolder;
+    letter-spacing: .3em;
+    color: black;
+}
+>>>>>>> a0ba3d9522f294c7e438aacc86d6da4cd9acb4e0

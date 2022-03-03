@@ -29,23 +29,25 @@ export const generateCitizenHTML = (obj) => {
     `
 }
 
-// You'll need to change the import directories to your own personal file names.
-import {cityObj} from "./canadaData.js"
-import {landmarkObj} from "./canadaData.js"
-import {citizenObj} from "./canadaData.js"
-import { generateLandmarkHTML } from "./canadaHTMLfunc.js"
-import {generateCityHTML} from "./canadaHTMLfunc.js"
-import { generateCitizenHTML } from "./canadaHTMLfunc.js"
+// Copy and paste code below into your own country.js file
 
-// if the name of your arrays are different than 'landmarkObj', etc, youll have to change that
-for (const landmark of landmarkObj){
-    generateLandmarkHTML(landmark)
-}
+// // You'll need to change the import directories to your own personal file names.
+// import {cityObj} from "./canadaData.js"
+// import {landmarkObj} from "./canadaData.js"
+// import {citizenObj} from "./canadaData.js"
+// import { generateLandmarkHTML } from "./canadaHTMLfunc.js"
+// import {generateCityHTML} from "./canadaHTMLfunc.js"
+// import { generateCitizenHTML } from "./canadaHTMLfunc.js"
 
-for (const city of cityObj){
-    generateCityHTML(city)
-}
+// // if the name of your arrays are different than 'landmarkObj', etc, youll have to change that
+// for (const landmark of landmarkObj){
+//     generateLandmarkHTML(landmark)
+// }
 
-for (const citizen of citizenObj){
-    generateCitizenHTML(citizen)
-}
+// for (const city of cityObj){
+//     generateCityHTML(city)
+// }
+
+// for (const citizen of citizenObj){
+//     generateCitizenHTML(citizen)
+// }

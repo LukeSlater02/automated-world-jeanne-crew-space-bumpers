@@ -1,0 +1,94 @@
+.background {
+    background-image:url(GermanyBackground1.png);
+    padding-bottom: 60em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .background h3 {
+    padding: 0 10em;
+  }
+  
+  .backdrop {
+    padding: 10em;
+    background-image: url(MountainsBackdrop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  .Spacer {
+    padding: 1em;
+  }
+  
+  .navbar a{
+  display: flex;
+  font-size: 2em;
+  font-weight: bolder;
+  color: black;
+  margin: 2em;
+  text-decoration: none;
+  }
+  
+  .country:hover{
+    color:#47C2B1;
+  }
+  
+  header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  }
+  
+  .Headspace{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    }
+  
+  .logo:hover {
+  background-image:url(Jeanne\ Crew.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:black;
+  }
+  
+  .navbar {
+  display: flex;
+  }
+  
+  #currentNav {
+    color:#47C2B1;
+  }
+  
+  .logo {
+    background-image:url(LogoWordsBLK.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:  white;
+    width: 120px;
+    height: 120px;
+    margin: 1.5em;
+  }
+  
+  .logo:hover {
+    background-image:url(LogoWordsBLU.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+  }
+  
+  .card {
+    box-shadow:
+    1px -1px 35px 6px rgba(30, 30, 60, 0.64);
+  }
