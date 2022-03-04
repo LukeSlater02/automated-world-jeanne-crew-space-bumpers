@@ -1,12 +1,30 @@
 /* .title__section {
 
 } */
+.citizens {
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.landmarks {
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.city {
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: xx-large;
+}
 
 .content__section {
     display:flex;
     justify-content: space-between; 
     background-color: #52616B;
     padding: 2em 1em;
+    border: 5px black solid;
 }
 
 .content__section h2 {
@@ -14,13 +32,16 @@
 }
 
 .content__column {
-    display:flex;
+    display: flex;
     flex-direction: column;
     flex-basis: 30%;
     border: 5px black solid;
     margin: 0 .5em;
     padding: .5em;
     background-color: #C9D6DF;
+    box-shadow:
+    3px -1px 15px 4px rgba(30, 30, 60, 0.50);
+
 }
 
 .content__column h2 {
@@ -37,65 +58,39 @@ main {
     background-color: white;
 }
 
-.cityList a {
-    background-color: #47C2B1;
-    padding: 1em;
-    box-shadow:
-    1px -1px 35px 6px rgba(30, 30, 60, 0.64);
+.content__column h1{
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  border-bottom: 3px black solid;
+  padding-bottom: 1em;
+}
+
+.content__column a{
+    background-color: none;
     border-radius:8px;
     font-weight: bolder;
     text-decoration: none;
     color: black;
-    margin-left: 1em;
+    border: 3px solid black;
+    padding: .5em 1em;
 }
 
-.cityList a:hover{
-    background-color: #FF8576;
-    box-shadow: none;
-}
-
-.cityList p {
-    margin-bottom: 3em;
-}
-
-.landmarkList a {
+.content__column a:hover{
     background-color: #47C2B1;
-    padding: 1em;
-    box-shadow:
-    1px -1px 35px 6px rgba(30, 30, 60, 0.64);
-    border-radius:8px;
-    font-weight: bolder;
-    text-decoration: none;
-    color: black;
-    margin-left: 1em;
+    box-shadow: -1px 1px 10px 4px rgba(0,0,0,0.50) inset;
 }
 
-.landmarkList a:hover{
-    background-color: #FF8576;
-    box-shadow: none;
+.citizenList {
+    margin: 0 2em 2em;
 }
 
-.landmarkList p {
-    margin-bottom: 3em;
+.cityList {
+    margin: 0 2em 2em;
 }
 
-.citizenList a {
-    background-color: #47C2B1;
-    padding: 1em;
-    box-shadow:
-    1px -1px 35px 6px rgba(30, 30, 60, 0.64);
-    border-radius:8px;
-    font-weight: bolder;
-    text-decoration: none;
-    color: black;
-    margin-left: 1em;
+.landmarkList {
+    margin: 0 2em 2em;
 }
 
-.citizenList a:hover{
-    background-color: #FF8576;
-    box-shadow: none;
-}
-
-.citizenList p {
-    margin-bottom: 3em;
-}
