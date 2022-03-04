@@ -5,7 +5,8 @@ document.querySelector('header').innerHTML = header.Header({
     name: "",
     info: "",
     location: "",
-    pathToBackgroundImage: "../../images/england/tower_bridge.gif",
+    isIndex: true,
+    pathToBackgroundImage: "",
     pathToRoot: "./"
 });
 

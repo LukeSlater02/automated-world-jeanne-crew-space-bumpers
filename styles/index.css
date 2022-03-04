@@ -14,3 +14,47 @@ h1 {
 body {
     margin: 0;
 }
+
+.video__container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+    padding: 9em 0;
+    background: rgba(0,0,0, 0.3);
+}
+
+#myVideo {
+    min-width: 100%;
+}
+
+video {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.welcomeText__container {
+    position: relative;
+    
+}
+
+.welcomeText__container h1 {
+    color: white;
+    font-family: "Montserrat";
+    text-shadow: 2px 1px 8px rgba(0,0,0, 0.5);
+
+    font-size: 40pt;
+    font-weight:bolder;
+    letter-spacing: .3em;
+    text-align: center;
+}
+
+.bdropIndex {
+    background-color: rgb(80, 80, 80);
+}
