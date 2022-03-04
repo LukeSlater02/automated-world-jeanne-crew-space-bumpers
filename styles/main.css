@@ -1,6 +1,21 @@
 /* .title__section {
 
 } */
+.citizens {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.landmarks {
+    text-decoration: underline;
+    font-weight: bolder;
+    
+}
+
+.city {
+    text-decoration: underline;
+    font-weight: bolder;
+}
 
 .content__section {
     display:flex;
