@@ -7,7 +7,9 @@ import * as englandData from './englandData.js';
 document.querySelector('header').innerHTML = header.Header({
     name: "England",
     info: "This is England!",
-    location: "Picture of Big Ben goes here . . ."
+    location: "Picture of Big Ben goes here . . .",
+    pathToBackgroundImage: "../../images/england/bigbenriver.jpg",
+    pathToRoot: "../../"
 })
 
 // Generate Main Section
