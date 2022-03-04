@@ -32,7 +32,7 @@
   .backdrop {
     padding: 5em;
     /* background-image: url(MountainsBackdrop.jpg); */
-    background-image: url(../images/england/bigbenriver.jpg);
+    background-image: url(../images/logo/BackdropImage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
