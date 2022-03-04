@@ -7,10 +7,9 @@ import * as footer from '../../scripts/shared/footer.js';
 import * as header from '../shared/HeaderGenerator.js';
 
 document.querySelector('header').innerHTML = header.Header({
-    name: "Canada",
-    info: "A Mari Usque Ad Mare",
-    location: "Picture of Lake Louise goes here . . .",
-    pathToBackgroundImage: "../../images/canada/lakelouise.png",
+    name: "CANADA",
+    location: "Lake Louise, Banff National Park",
+    pathToBackgroundImage: "../../images/canada/lakelouise.jpg",
     pathToRoot: "../../"
 })
 

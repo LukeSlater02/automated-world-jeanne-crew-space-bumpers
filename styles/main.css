@@ -99,3 +99,8 @@ main {
 .citizenList p {
     margin-bottom: 3em;
 }
+
+.divider {
+    border-top: 2px solid black;
+    margin-top: 2.5em;
+}
