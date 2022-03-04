@@ -120,3 +120,11 @@
     box-shadow:
     1px -1px 35px 6px rgba(30, 30, 60, 0.64);
   }
+
+  .england .background {
+    padding-bottom: 40em;
+  }
+
+  .england .background h1 {
+    color: white;
+  }
