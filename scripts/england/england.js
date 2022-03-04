@@ -8,7 +8,7 @@ document.querySelector('header').innerHTML = header.Header({
     name: "England",
     info: "This is England!",
     location: "Picture of Big Ben goes here . . .",
-    pathToBackgroundImage: "../../images/england/bigbenriver.jpg",
+    pathToBackgroundImage: "../../images/england/BigBen.jpg",
     pathToRoot: "../../"
 })
 
