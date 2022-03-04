@@ -6,7 +6,23 @@ export const Header = (countryObj) => {
   const japanPath = `/countries/japan/japan.html`;
   const indexPath = `index.html`;
 
-  return `
+  //Returns only the navbar if we call the function from index.html
+  if (countryObj.isIndex) {
+    return `<div class="navbar__wrapper">
+    <nav class="navbar">
+      <a class="country" href="${countryObj.pathToRoot + canadaPath}" title="Canada">Canada</a>
+      <a class="country" href="${countryObj.pathToRoot + englandPath}" title="England">England</a>
+    </nav>
+      <a class= "logo" href="${countryObj.pathToRoot + indexPath}" title=""></a>
+    <nav class="navbar"> 
+      <a class="country" href="${countryObj.pathToRoot + germanyPath}" title="Germany">Germany</a>
+      <a class="country" href="${countryObj.pathToRoot + japanPath}" title="Japan">Japan</a>
+    </nav>
+  </div> `
+  }
+  // Returns navbar plus a header image with country info for normal pages
+  else {
+    return `
  
         <div class="navbar__wrapper">
           <nav class="navbar">
@@ -26,4 +42,5 @@ export const Header = (countryObj) => {
           <h2>${countryObj.location}</h2>
         </div>
       `
+  }
 }

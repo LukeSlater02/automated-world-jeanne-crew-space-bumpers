@@ -27,21 +27,21 @@ let GermanyLandmarkObj = [
     name: "Brandenburg Gate",
     image: "image",
     yearCreated: "1791",
-    descritpion: "The Brandenburg Gate is an 18th-century neoclassical monument in Berlin, built on the orders of Prussian king Frederick William II after the temporary restoration of order during the Batavian Revolution. One of the best-known landmarks of Germany, it was built on the site of a former city gate that marked the start of the road from Berlin to the town of Brandenburg an der Havel, which used to be the capital of the Margraviate of Brandenburg. It is located in the western part of the city centre of Berlin within Mitte, at the junction of Unter den Linden and Ebertstraße, immediately west of the Pariser Platz. One block to the north stands the Reichstag building, which houses the German parliament (Bundestag). The gate is the monumental entry to Unter den Linden, a boulevard of linden trees which led directly to the royal City Palace of the Prussian monarchs.",
+    description: "The Brandenburg Gate is an 18th-century neoclassical monument in Berlin, built on the orders of Prussian king Frederick William II after the temporary restoration of order during the Batavian Revolution. One of the best-known landmarks of Germany, it was built on the site of a former city gate that marked the start of the road from Berlin to the town of Brandenburg an der Havel, which used to be the capital of the Margraviate of Brandenburg. It is located in the western part of the city centre of Berlin within Mitte, at the junction of Unter den Linden and Ebertstraße, immediately west of the Pariser Platz. One block to the north stands the Reichstag building, which houses the German parliament (Bundestag). The gate is the monumental entry to Unter den Linden, a boulevard of linden trees which led directly to the royal City Palace of the Prussian monarchs.",
     link: "https://en.wikipedia.org/wiki/Brandenburg_Gate"
   },
   {
     name: "Neuschwanstein Castle",
     image: "image",
     yearCreated: "1869, Never Technically Finished",
-    descritpion: "Neuschwanstein Castle is a 19th-century historicist palace on a rugged hill above the village of Hohenschwangau near Füssen in southwest Bavaria, Germany. The palace was commissioned by King Ludwig II of Bavaria as a retreat and in honour of Richard Wagner. Ludwig chose to pay for the palace out of his personal fortune and by means of extensive borrowing, rather than Bavarian public funds. Construction began in 1869, but was never fully completed. The castle was intended as a private residence for the King, until he died in 1886. It was open to the public shortly after his death. Since then more than 61 million people have visited Neuschwanstein Castle. More than 1.3 million people visit annually, with as many as 6,000 per day in the summer.",
+    description: "Neuschwanstein Castle is a 19th-century historicist palace on a rugged hill above the village of Hohenschwangau near Füssen in southwest Bavaria, Germany. The palace was commissioned by King Ludwig II of Bavaria as a retreat and in honour of Richard Wagner. Ludwig chose to pay for the palace out of his personal fortune and by means of extensive borrowing, rather than Bavarian public funds. Construction began in 1869, but was never fully completed. The castle was intended as a private residence for the King, until he died in 1886. It was open to the public shortly after his death. Since then more than 61 million people have visited Neuschwanstein Castle. More than 1.3 million people visit annually, with as many as 6,000 per day in the summer.",
     link: "https://en.wikipedia.org/wiki/Neuschwanstein_Castle"
   },
   {
     name: "Cologne Cathedral",
     image: "image",
     yearCreated: "1880",
-    descritpion: "Cologne Cathedral (German: Kölner Dom, officially Hohe Domkirche Sankt Petrus, English: Cathedral Church of Saint Peter) is a Catholic cathedral in Cologne, North Rhine-Westphalia. It is the seat of the Archbishop of Cologne and of the administration of the Archdiocese of Cologne. It is a renowned monument of German Catholicism and Gothic architecture and was declared a World Heritage Site in 1996. It is Germany's most visited landmark, attracting an average of 20,000 people a day. At 157 m (515 ft), the cathedral is currently the tallest twin-spired church in the world, the second tallest church in Europe after Ulm Minster, and the third tallest church in the world. It is the largest Gothic church in Northern Europe and has the second-tallest spires. The towers for its two huge spires give the cathedral the largest façade of any church in the world. The choir has the largest height to width ratio, 3.6:1, of any medieval church.",
+    description: "Cologne Cathedral (German: Kölner Dom, officially Hohe Domkirche Sankt Petrus, English: Cathedral Church of Saint Peter) is a Catholic cathedral in Cologne, North Rhine-Westphalia. It is the seat of the Archbishop of Cologne and of the administration of the Archdiocese of Cologne. It is a renowned monument of German Catholicism and Gothic architecture and was declared a World Heritage Site in 1996. It is Germany's most visited landmark, attracting an average of 20,000 people a day. At 157 m (515 ft), the cathedral is currently the tallest twin-spired church in the world, the second tallest church in Europe after Ulm Minster, and the third tallest church in the world. It is the largest Gothic church in Northern Europe and has the second-tallest spires. The towers for its two huge spires give the cathedral the largest façade of any church in the world. The choir has the largest height to width ratio, 3.6:1, of any medieval church.",
     link: "https://en.wikipedia.org/wiki/Cologne_Cathedral"
   },
 ]
@@ -69,3 +69,28 @@ let GermanyCitizenObj = [
     link: "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven"
   },
 ]
+
+let GermanyHeaderObj = [
+  {
+    name: "GERMANY",
+    info: "Various Germanic tribes have inhabited the northern parts of modern Germany since classical antiquity. A region named Germania was documented before AD 100. In the 10th century, German territories formed a central part of the Holy Roman Empire. During the 16th century, northern German regions became the centre of the Protestant Reformation.Germany is a great power with a strong economy; it has the largest economy in Europe, the world's fourth-largest economy by nominal GDP, and the fifth-largest by PPP. As a global leader in several industrial, scientific and technological sectors, it is both the world's third-largest exporter and importer of goods. As a developed country, which ranks very high on the Human Development Index, it offers social security and a universal health care system, environmental protections, and a tuition-free university education. Germany is a member of the United Nations, NATO, the G7, the G20, and the OECD. It has the third-greatest number of UNESCO World Heritage Sites.",
+    location:"Brandenburg Gate"
+  }
+]
+
+
+export const getGermanCities = () => {
+  return GermanyCityObject;
+};
+
+export const getGermanLandmarks = () => {
+  return GermanyLandmarkObj;
+};
+
+export const getGermanCitizens = () => {
+  return GermanyCitizenObj;
+};
+
+export const getGermanHeader = () => {
+  return GermanyHeaderObj;
+};

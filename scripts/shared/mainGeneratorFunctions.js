@@ -15,7 +15,7 @@ export const generateCityHTML = (obj) => {
     <h2>${obj.name}</h2>
     <h4>Population: ${obj.population}</h4>
     <p>${obj.description}</p>
-    <a href="${obj.link}" target="_blank">Learn More</a>
+    <a class= "learnMore" href="${obj.link}" target="_blank">Learn More</a>
     `
 }
 
