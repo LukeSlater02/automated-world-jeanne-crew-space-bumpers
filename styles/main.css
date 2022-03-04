@@ -46,7 +46,8 @@ main {
   text-align: center;
   letter-spacing: 1px;
   font-weight: bolder;
-  text-decoration: underline;
+  border-bottom: 3px black solid;
+  padding-bottom: 1em;
 }
 
 .content__column a{
@@ -75,3 +76,4 @@ main {
 .landmarkList {
     margin: 0 2em 2em;
 }
+
