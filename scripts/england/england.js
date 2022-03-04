@@ -6,15 +6,9 @@ import * as englandData from './englandData.js';
 // Generate Header
 document.querySelector('header').innerHTML = header.Header({
     name: "England",
-<<<<<<< HEAD
     info: "",
     location: "",
     pathToBackgroundImage: "../../images/england/bigbenriver.jpg",
-=======
-    info: "This is England!",
-    location: "Picture of Big Ben goes here . . .",
-    pathToBackgroundImage: "../../images/england/BigBen.png",
->>>>>>> bb52d4211c8f186e0661a4b2081dedf6b0dcd9e4
     pathToRoot: "../../"
 })
 
