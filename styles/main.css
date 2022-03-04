@@ -3,17 +3,18 @@
 } */
 
 .content__section {
-    display:flex;
+    display: flex;
     justify-content: space-between;     
 }
 
 .content__column {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    border: 5px black solid;
+    border: 8px #30D5C8 solid;
     margin: 0 .5em;
     padding: .5em;
-  
+    color: #234F1E;
+    background-color: whitesmoke;
 }
 
 .content__column h2 {
@@ -26,3 +27,11 @@
 
 } */
 
+body {
+    background-color: #234F1E ;
+
+}
+
+.content__column {
+    border
+}
