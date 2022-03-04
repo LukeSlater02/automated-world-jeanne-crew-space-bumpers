@@ -30,9 +30,8 @@
   }
   
   .backdrop {
-    padding: 5em;
+    padding: 20em;
     /* background-image: url(MountainsBackdrop.jpg); */
-    background-image: url(../images/logo/Backdrop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -61,6 +60,8 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  border: black solid 5px;
+  border-bottom: none;
   }
   
   .Headspace{
@@ -119,6 +120,7 @@
     box-shadow:
     1px -1px 35px 6px rgba(30, 30, 60, 0.64);
   }
+<<<<<<< HEAD
 
   .england .background {
     padding-bottom: 40em;
@@ -127,3 +129,5 @@
   .england .background h1 {
     color: white;
   }
+=======
+>>>>>>> bb52d4211c8f186e0661a4b2081dedf6b0dcd9e4
