@@ -4,16 +4,23 @@
 
 .content__section {
     display:flex;
-    justify-content: space-between;     
+    justify-content: space-between; 
+    background-color: black;
+    padding: 2em 1em;
+}
+
+.content__section h2 {
+    font-family: "Montserrat";
 }
 
 .content__column {
     display:flex;
     flex-direction: column;
+    flex-basis: 30%;
     border: 5px black solid;
     margin: 0 .5em;
     padding: .5em;
-  
+    background-color: rgb(138, 101, 59);
 }
 
 .content__column h2 {
@@ -26,3 +33,6 @@
 
 } */
 
+main {
+    background-color: white;
+}

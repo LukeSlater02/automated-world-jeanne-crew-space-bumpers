@@ -1,20 +1,37 @@
 .background {
-    background-image:url(GermanyBackground1.png);
-    padding-bottom: 60em;
+    background-image:url(../images/england/bigbenriver.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    flex-basis: 100%;
+  }
+
+
+  .background h1 {
+      font-family: "Montserrat";
+      color: white;
+      letter-spacing: 1em;
+      text-indent: 1em;
+      /* margin-top: 20px;
+      margin-bottom: 140px; */
   }
   
+  .background h2 {
+    color: white;
+  }
+
   .background h3 {
+    color: white;
     padding: 0 10em;
   }
   
   .backdrop {
-    padding: 10em;
-    background-image: url(MountainsBackdrop.jpg);
+    padding: 5em;
+    /* background-image: url(MountainsBackdrop.jpg); */
+    background-image: url(../images/england/bigbenriver.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -40,6 +57,7 @@
   header {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   background-color: white;
@@ -63,6 +81,14 @@
   
   .navbar {
   display: flex;
+  }
+
+  .navbar__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
   }
   
   #currentNav {
