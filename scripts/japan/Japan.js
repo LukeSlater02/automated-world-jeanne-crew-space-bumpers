@@ -6,7 +6,10 @@ import {insertFooterHTML} from "../shared/footer.js"
 document.querySelector("header").innerHTML = Header({
     name: "Japan",
     location: "Randon Picture Sub Title",
-    info: "Japan is cool"
+    info: "Japan is cool",
+    pathToRoot: "../../",
+    pathToBackgroundImage:"../../images/japan/japanStreets.png"
+
 })
 
 let cities = getJapanCities();
