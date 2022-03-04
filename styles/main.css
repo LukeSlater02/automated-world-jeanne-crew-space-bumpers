@@ -3,18 +3,24 @@
 } */
 
 .content__section {
-    display: flex;
-    justify-content: space-between;     
+    display:flex;
+    justify-content: space-between; 
+    background-color: black;
+    padding: 2em 1em;
+}
+
+.content__section h2 {
+    font-family: "Montserrat";
 }
 
 .content__column {
     display: flex;
     flex-direction: column;
-    border: 8px #30D5C8 solid;
+    flex-basis: 30%;
+    border: 5px black solid;
     margin: 0 .5em;
     padding: .5em;
-    color: #234F1E;
-    background-color: whitesmoke;
+    background-color: rgb(138, 101, 59);
 }
 
 .content__column h2 {
@@ -27,11 +33,6 @@
 
 } */
 
-body {
-    background-color: #234F1E ;
-
-}
-
-.content__column {
-    border
+main {
+    background-color: white;
 }

@@ -1,11 +1,16 @@
 @import 'main.css';
 @import 'header.css';
 @import 'footer.css';
-@import 'main.css';
+/* Import fonts under here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 h1 {
     font-size: 60pt;
     font-weight:bolder;
     letter-spacing: .3em;
     color: black;
+}
+
+body {
+    margin: 0;
 }
