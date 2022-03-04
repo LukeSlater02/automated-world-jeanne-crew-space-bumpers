@@ -32,7 +32,7 @@
 }
 
 .content__column {
-    display:flex;
+    display: flex;
     flex-direction: column;
     flex-basis: 30%;
     border: 5px black solid;

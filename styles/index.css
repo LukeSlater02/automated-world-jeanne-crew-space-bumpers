@@ -14,6 +14,7 @@ h1 {
 body {
     margin: 0;
 }
+<<<<<<< HEAD
 
 .video__container {
     position: relative;
@@ -58,3 +59,5 @@ video {
 .bdropIndex {
     background-color: rgb(80, 80, 80);
 }
+=======
+>>>>>>> 849ff3033ee601908ceb7efe9d910ebe89d98148
