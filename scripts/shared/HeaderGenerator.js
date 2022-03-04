@@ -1,6 +1,6 @@
 export const Header = (countryObj) => {
- return `<section class="backdrop">
-      <section class="card">
+  const landmarkHTML = document.querySelector(".landmarkList")
+  landmarkHTML.innerHTML += `
         <header>
         <nav class="navbar">
             <a class="country" href="index.html" title="Canada">Canada</a>
@@ -17,6 +17,7 @@ export const Header = (countryObj) => {
           <h3>${countryObj.info}</h3>
           <h2>${countryObj.location}</h2>
         </header>
-      </section>
-  </section>`
-}
+    `
+  }
+
+

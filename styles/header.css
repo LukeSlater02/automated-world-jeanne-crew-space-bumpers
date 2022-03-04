@@ -14,7 +14,7 @@
   
   .backdrop {
     padding: 10em;
-    background-image: url(MountainsBackdrop.jpg);
+    color:rgba(30, 30, 60, 0.64);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -42,7 +42,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: white;
   }
   
   .Headspace{
@@ -89,6 +88,7 @@
   }
   
   .card {
+    background-color: aquamarine;
     box-shadow:
     1px -1px 35px 6px rgba(30, 30, 60, 0.64);
   }
